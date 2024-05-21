@@ -15,13 +15,14 @@ Gen = 0
 
 
 class car:
-    ...
+    Velocity = 20
 
 class hills:
-    ...
+    Velocity = 5
+    GAP = 10
 
 class background:
-    ...
+    Velocity = 5
 
 
 
