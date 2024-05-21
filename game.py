@@ -6,6 +6,22 @@ import os
 import random
 pygame.font.init()
 
+win_height = 500
+win_width = 800
+Gen = 0
+
+
+
+
+
+class car:
+    ...
+
+class hills:
+    ...
+
+class background:
+    ...
 
 
 
