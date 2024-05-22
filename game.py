@@ -9,6 +9,9 @@ pygame.font.init()
 win_height = 500
 win_width = 800
 Gen = 0
+driver = pygame.transform.scale2x(pygame.image.load(os.path.join("Assets","driver-head.png")))
+tire = pygame.transform.scale2x(pygame.image.load(os.path.join("Assets","Tire.png")))
+car = pygame.transform.scale2x(pygame.image.load(os.path.join("Assets","car-full.png")))
 
 
 BG_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("Assets","lowres-stage-icon-arctic.png")))
@@ -17,6 +20,12 @@ BG_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("Assets","lowre
 
 
 class car:
+    Velocity = 20
+
+    def __init__(self):
+        pass
+
+class wheels:
     Velocity = 20
 
 class hills:
