@@ -11,6 +11,8 @@ win_width = 800
 Gen = 0
 
 
+BG_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("Assets","lowres-stage-icon-arctic.png")))
+
 
 
 
@@ -24,6 +26,8 @@ class hills:
 class background:
     Velocity = 5
 
+def draw_window(win):
+    win.blit(BG_IMG,(0,0))
 
 
 
